@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Admission Form</title>
+</head>
+<body>
+    <form>
+        <label >Student Name</label>
+        <input type="number" minlength="6" required>
+        <br>
+        <label> Student Email</label>
+        <input type ="email" required>
+        <br>
+        <label>Address</label>
+        <br>
+        <textarea rows="5"></textarea>
+        <br>
+        <label>gender</label>
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+        <br>
+        <label>Select Course</label>
+        <select>
+            <option>Computer Science</option>
+            <option>Civil Engineering</option>
+            <option>mechanical engineering</option>
+            <option>electrical engineering</option>
+        </select>
+        <br>
+        <label>College name</label>
+        <input type="text" list="college">
+        <datalist id="college">
+            <option>SRMIT</option>
+            <option>RRMIT</option>
+            <option>BBDNIIT</option>
+            <option>Studyhall</option>
+        </datalist>
+        <br>
+
+        <button>Submit</button>
+    </form>
+    
+</body>
+</html>

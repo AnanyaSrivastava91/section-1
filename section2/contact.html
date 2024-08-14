@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+        href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic"
+        rel="stylesheet" />
+
+    <style>
+        * {
+            background-color: #5809a3;
+            /* background-image:url(Designer.png);
+            background-repeat: no-repeat;
+            background-position: center;*/
+        }
+
+        .heading {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Roboto;
+        }
+
+        .heading2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Roboto;
+            /*background-color: thistle;*/
+        }
+
+        .form {
+            border: 4px solid #00152e;
+            width: 20%;
+            border-radius: 15px;
+            padding-top: 15px;
+            padding-bottom: 30px;
+            padding-left: 30px;
+            padding-right: 30px;
+            box-shadow: 7px 7px 12px 4px rgb(5, 0, 60);
+            margin-right: 30px;
+            /*background-color: thistle;*/
+        }
+
+        .form2 {
+            border: 4px solid #00152e;
+            width: 20%;
+            border-radius: 15px;
+            padding-top: 15px;
+            padding-bottom: 30px;
+            padding-left: 30px;
+            padding-right: 30px;
+            box-shadow: 7px 7px 12px 4px rgb(5, 0, 60);
+            /*background-color: thistle;*/
+        }
+
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .name {
+            width: 240px;
+            height: 20px;
+            background-color: honeydew;
+            color: black;
+            border: solid 2px;
+            border-radius: 5px;
+            display: block;
+            box-shadow: 7px 7px 12px 4px rgb(5, 0, 60);
+
+        }
+
+        .btn {
+            color: black;
+            background-color: azure;
+            border: 2px solid;
+            border-radius: 5px;
+            display: block;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 7px 7px 12px 4px rgb(5, 0, 60);
+            margin-top: 15px;
+
+        }
+
+        .contact {
+            width: 240px;
+            height: 20px;
+            background-color: honeydew;
+            border: 2px solid black;
+            border-radius: 5px;
+            box-shadow: 7px 7px 12px 4px rgb(5, 0, 60);
+            margin-bottom: 6px;
+        }
+
+        .box1 {
+            border: 2px solid black;
+            border-radius: 5px;
+            background-color: azure;
+            margin-top: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 10vh;
+            box-shadow: 7px 7px 12px 4px rgb(5, 0, 60);
+        }
+
+        .box2 {
+            border: 2px solid black;
+            border-radius: 5px;
+            background-color: azure;
+            margin-top: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 10vh;
+            box-shadow: 7px 7px 12px 4px rgb(5, 0, 60);
+
+        }
+
+        .date {
+            border: 2px solid black;
+            border-radius: 5px;
+            background-color: azure;
+            box-shadow: 7px 7px 12px 4px rgb(5, 0, 60);
+            margin-top: 15px;
+        }
+
+        .logo1 {
+            margin-left: 14px;
+            margin-right: 14px;
+        }
+
+        .image {
+            border-radius: 5px;
+            border: 2px solid black;
+            box-shadow: 7px 7px 12px 4px rgb(5, 0, 60);
+        }
+    </style>
+</head>
+
+<body class="background">
+    <h2 class="heading"><b><u>Hey buddy, got any quiries....</u></b></h2>
+    <h2 class="heading"><b><u>fill up your contact details so that our experts could resolve your quiries...</u></b>
+    </h2>
+    <main>
+        <form class="form">
+            <h3 class="heading2"><b><u>Your details</u></b></h3>
+
+            <input class="name" type="text" name="First Name" placeholder="Full Name">
+
+            <br>
+            <input class="contact" type="number" name="Contact No." placeholder="Contact No." required>
+            <br>
+            <textarea class="box1" rows="5" placeholder="Your quiry" required></textarea>
+            <br>
+            <textarea class="box2" rows="5" placeholder="Any special message" required></textarea>
+            <br>
+            <span><b><u>Any specified date you for contacting you </u></b></span>
+            <br>
+            <input class="date" type="date">
+            <br>
+
+            <button class="btn">Submit</button>
+        </form>
+        <form class="form2">
+            <h3>Connect to us on :</h3>
+            <a class="logo1" href="https://www.linkedin.com/in/ananya-srivastava-5a088220a/"><img class="image"
+                    src="linkedin.jpeg" alt="LinkedIn profile" style="width: 40px; height: 40px;"></a>
+
+            <a class="logo1" href="https://www.instagram.com/helmetronnn/"><img class="image" src="insta.jpeg"
+                    alt="Instagram profile" style="width: 40px; height: 40px;"></a>
+
+            <a class="logo1" href="https://leetcode.com/u/ananyasrivastava419/"><img class="image" src="leetcode.jpeg"
+                    alt="Leetcode profile" style="width: 40px; height: 40px;"></a>
+
+            <a class="logo1" href="https://github.com/AnanyaSrivastava91"><img class="image" src="github.jpeg"
+                    alt="Github profile" style="width: 40px; height: 40px;"></a>
+        </form>
+    </main>
+</body>
+
+</html>
