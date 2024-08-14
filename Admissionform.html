@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student Admission Form</title>
 </head>
+
 <body>
     <form>
-        <label >Student Name</label>
+        <label>Student Name</label>
         <input type="number" minlength="6" required>
         <br>
         <label> Student Email</label>
-        <input type ="email" required>
+        <input type="email" required>
         <br>
         <label>Address</label>
         <br>
@@ -22,7 +24,7 @@
         <input type="radio" name="gender"> Female
         <br>
         <label>Select Course</label>
-        <select>
+        <select>/*no options for selection*/
             <option>Computer Science</option>
             <option>Civil Engineering</option>
             <option>mechanical engineering</option>
@@ -31,16 +33,28 @@
         <br>
         <label>College name</label>
         <input type="text" list="college">
-        <datalist id="college">
+        <datalist id="college"> /*option for adding more info*/
             <option>SRMIT</option>
             <option>RRMIT</option>
             <option>BBDNIIT</option>
             <option>Studyhall</option>
         </datalist>
         <br>
+        <input type="checkbox" required>
+        <label>Accept terms and conditions</label>
+        <br>
+        <details>
+            <summary>
+                View Terms and conditions
+            </summary>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus asperiores magni non voluptas,
+                autem assumenda totam iste eum. Mollitia fuga amet possimus! Iste doloribus dolores, distinctio quos a
+                nesciunt quisquam?</p>
+        </details>
 
         <button>Submit</button>
     </form>
-    
+
 </body>
+
 </html>
